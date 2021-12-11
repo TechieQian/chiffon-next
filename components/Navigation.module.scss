@@ -1,0 +1,15 @@
+.nav {
+  background-color: white;
+  .navItem {
+    cursor: pointer;
+    &:hover {
+      color: magenta;
+      .icon {
+        transform: rotate(30deg);
+      }
+    }
+    .icon {
+      margin-right: 10px;
+    }
+  }
+}

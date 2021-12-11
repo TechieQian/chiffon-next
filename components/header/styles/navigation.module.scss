@@ -1,0 +1,13 @@
+.nav {
+  background-color: white;
+  .navItem {
+    &:hover {
+      .icon {
+        transform: rotate(30deg);
+      }
+    }
+    .icon {
+      margin-right: 10px;
+    }
+  }
+}
