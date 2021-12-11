@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import styles from "./index.module.scss";
-import sponsors from "./sponsors";
-import Sponsor from "../../components/body/Sponsor";
+import sponsors from "../../sponsors";
+import Sponsor from "./Sponsor";
 import Body from "../../components/body/Body";
 import cn from "classnames";
 
-const uniqueTags = sponsors.reduce((set, sponsor) => {
-  sponsor.tags.forEach((tag) => set.add(tag));
-  return set;
-}, new Set());
-
 function Shop() {
+  const uniqueTags = sponsors.reduce((set, sponsor) => {
+    sponsor.tags.forEach((tag) => set.add(tag));
+    return set;
+  }, new Set());
   const [filteredTags, setFilteredTags] = useState<string[]>([]);
   const filterSet = new Set(filteredTags);
   const allOn = filteredTags.length === 0;
@@ -22,6 +21,7 @@ function Shop() {
             const included = filteredTags.includes(tag);
             return (
               <span
+                key={tag}
                 className={cn("tag", {
                   "is-primary": included,
                 })}
@@ -47,7 +47,9 @@ function Shop() {
           for (let i = 0; i < sponsor.tags.length; i++) {
             if (filterSet.has(sponsor.tags[i])) shouldInclude = true;
           }
-          return shouldInclude || allOn ? <Sponsor sponsor={sponsor} /> : null;
+          return (shouldInclude || allOn) && sponsor ? (
+            <Sponsor sponsor={sponsor} />
+          ) : null;
         })}
       </section>
     </Body>

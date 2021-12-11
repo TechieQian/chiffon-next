@@ -5,7 +5,6 @@
 // npm start
 
 const sponsors = [
-  
   {
     link: "https://www.poshpuppyboutique.com?sca_ref=1237600.asXdCJaMoQ",
     label: "PoshPuppy Boutique: 35% off",
@@ -39,7 +38,6 @@ const sponsors = [
     subtitle: "Dog clothing, accessories, and more",
     tags: ["Dog", "Clothing", "Walk Accessories", "Dog Mom/Dad"]
   },
-
   {
     link: "https://www.liketoknow.it/ChiffonTheMaltipoo",
     label:
@@ -197,9 +195,9 @@ const sponsors = [
     link: "https://www.yesstyle.com/en/home.html?rco=CHIFFON",
     label: "YesStyle",
     code: "CHIFFON",
-  subtitle: "Dog clothing and accessories",
-tags: ["Human", "Pet", "Clothing"]  
-},
+    subtitle: "Dog clothing and accessories",
+    tags: ["Human", "Pet", "Clothing"]  
+  },
   {
     link:
       "https://star.aliexpress.com/share/share.htm?redirectUrl=https%3A%2F%2Fsale.aliexpress.com%2Freferral_register_success.htm%3FinvitationCode%3DK0I5RzQ4akJ5QzNoV2ViMmpnamF4dkJoK3pQTG1jbmtLODBQVDcyQk45Y0ZWR0phL0VQb1dnPT0%26invitationScenario%3DsocialFission%26mb%3Do5ewodaxoQRG8pX%26srcSns%3DCopy%26tid%3Dold_bring_x_101%26businessType%3DsocialFission&image=H78836f65c5ce470ab86e4b5c8a2b42ad5.jpg&businessType=socialFission&templateId=old_bring_x_101&title=GREAT%20NEWS!%20UP%20TO%20US%20%2424%20IN%20COUPONS!",
@@ -254,7 +252,6 @@ tags: ["Human", "Pet", "Clothing"]
     subtitle: "Fast drying, mold resistant home goods! Dog bowl mats, bath mats and more.",
     tags: ["Human", "Pet", "Home"]
   },
-
   //  {
   //  link: "https://www.vanderpumppets.com/",
     //label: "Vanderpump Pets: 15% off",
@@ -272,7 +269,6 @@ tags: ["Human", "Pet", "Clothing"]
   //  code: "CHIFFON20",
   //  subtitle: "Dog walk accessories"
  // },
-
 ];
 
 export interface ISponsor {

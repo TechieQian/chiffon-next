@@ -7,7 +7,7 @@ function ChiffonPhoto(props) {
   const [pic, setPic] = useState("");
   useEffect(() => {
     import(`../../assets/photos/chiffon${idx}.jpg`).then((module) => {
-      setPic(module.default.src);
+      setPic(module.default);
     });
   }, [idx]);
   return <img {...rest} src={pic} alt="pic"></img>;

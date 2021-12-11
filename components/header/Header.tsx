@@ -49,7 +49,7 @@ function Header() {
         </div>
         <div className={styles.gallery}>
           {placeholders.map((pic, idx) => (
-            <ChiffonPhoto idx={idx + 1} className={styles.pic} />
+            <ChiffonPhoto key={idx} idx={idx + 1} className={styles[pic]} />
           ))}
         </div>
       </div>
