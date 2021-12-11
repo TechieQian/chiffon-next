@@ -5,11 +5,12 @@ import Sponsor from "./Sponsor";
 import Body from "../../components/body/Body";
 import cn from "classnames";
 
+const uniqueTags = sponsors.reduce((set, sponsor) => {
+  sponsor.tags.forEach((tag) => set.add(tag));
+  return set;
+}, new Set());
+
 function Shop() {
-  const uniqueTags = sponsors.reduce((set, sponsor) => {
-    sponsor.tags.forEach((tag) => set.add(tag));
-    return set;
-  }, new Set());
   const [filteredTags, setFilteredTags] = useState<string[]>([]);
   const filterSet = new Set(filteredTags);
   const allOn = filteredTags.length === 0;
