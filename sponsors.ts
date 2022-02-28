@@ -20,7 +20,7 @@ const sponsors = [
     ],
   },
   {
-    link: "https://www.rifrufqueens.com/?ref=ng9-sipe4wz",
+    link: "https://www.shareasale.com/r.cfm?b=1925337&u=2634834&m=119660",
     label: "RifRufQueens: 15% off",
     code: "CHIFFON15",
     subtitle: "My favorite dog sneakers",
