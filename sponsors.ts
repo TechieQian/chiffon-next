@@ -165,12 +165,12 @@ const sponsors = [
     ],
   },
   {
-link: "https://www.sassywoof.com/"
-label: "Sassy Woof: 20% off"
-code: "CHIFFON"
-subtitle: "Walk accessories, outerwear, dog parent apparel and accessories"
-tags: ["Pet", "Clothing","Walk Accessories", "Bandanas" "Dog Mom/Dad"]
-  }
+    link: "https://www.sassywoof.com/",
+    label: "Sassy Woof: 20% off",
+    code: "CHIFFON",
+    subtitle: "Walk accessories, outerwear, dog parent apparel and accessories",
+    tags: ["Pet", "Clothing", "Walk Accessories", "Bandanas", "Dog Mom/Dad"],
+  },
   {
     link: "https://prf.hn/click/camref:1101ljdjJ/creativeref:1101l62969",
     label: "Honest Kitchen: 15% off with code",
