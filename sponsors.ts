@@ -19,11 +19,10 @@ const sponsors = [
       "Walk Accessories",
     ],
   },
-
   {
     link: "https://www.rifrufqueens.com/?ref=ng9-sipe4wz",
-    label: "RifRufQueens: 10% off",
-    code: "CHIFFON10",
+    label: "RifRufQueens: 15% off",
+    code: "CHIFFON15",
     subtitle: "My favorite dog sneakers",
     tags: ["Dog", "Shoes"],
   },
@@ -83,20 +82,20 @@ const sponsors = [
       "Walk accessories (harnesses, leashes, collars), bows and bandanas",
     tags: ["Walk Accessories", "Bandanas", "Hairbows"],
   },
-  {
-    link: "https://www.brklz.com//?ref=bb-xz32gw",
-    label: "BRKLZ: 20% off",
-    code: "CHIF",
-    subtitle: "Collars, leashes, letter charm name tags",
-    tags: ["Pet", "Dog Tags", "Human", "Dog Mom/Dad", "Walk Accessories"],
-  },
-  {
-    link: "http://www.browze.com/?utm_source=brandbassador&utm_medium=affiliate&ref=bb-xz32gw",
-    label: "Browze: 50% off first order or 25% off with code",
-    code: "BCREWCHIFFON",
-    subtitle: "Home, kitchen, all kinds of supplies for humans and  pets!",
-    tags: ["Pet", "Home", "Human"],
-  },
+  // {
+  //   link: "https://www.brklz.com//?ref=bb-xz32gw",
+  //   label: "BRKLZ: 20% off",
+  //   code: "CHIF",
+  //   subtitle: "Collars, leashes, letter charm name tags",
+  //   tags: ["Pet", "Dog Tags", "Human", "Dog Mom/Dad", "Walk Accessories"],
+  // },
+  // {
+  //   link: "http://www.browze.com/?utm_source=brandbassador&utm_medium=affiliate&ref=bb-xz32gw",
+  //   label: "Browze: 50% off first order or 25% off with code",
+  //   code: "BCREWCHIFFON",
+  //   subtitle: "Home, kitchen, all kinds of supplies for humans and  pets!",
+  //   tags: ["Pet", "Home", "Human"],
+  //  },
   {
     link: "https://www.blueberrypet.com/?ref=ng9-sipe4wz",
     label: "Blueberry Pet: 10% off",
@@ -165,6 +164,13 @@ const sponsors = [
       "Dog Mom/Dad",
     ],
   },
+  {
+link: "https://www.sassywoof.com/"
+label: "Sassy Woof: 20% off"
+code: "CHIFFON"
+subtitle: "Walk accessories, outerwear, dog parent apparel and accessories"
+tags: ["Pet", "Clothes","Walk Accessories", "Bandanas" "Dog Mom/Dad"]
+  }
   {
     link: "https://prf.hn/click/camref:1101ljdjJ/creativeref:1101l62969",
     label: "Honest Kitchen: 15% off with code",
