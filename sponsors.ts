@@ -12,7 +12,7 @@ const sponsors = [
     subtitle: "One stop shop with clothing, accessories and more",
     tags: [
       "Dog",
-      "Clothes",
+      "Clothing",
       "Toys",
       "Hairbows",
       "Bandanas",
@@ -49,7 +49,7 @@ const sponsors = [
     label: "Dog Crush Boutique: 15% off",
     code: "CHIFFON",
     subtitle: "Dog clothing, accessories, and more",
-    tags: ["Dog", "Clothing", "Walk Accessories", "Dog Mom/Dad"],
+    tags: ["Dog", "Clothing", "Walk Accessories", "Dog Mom/Dad", "Human"],
   },
   {
     link: "https://www.liketoknow.it/ChiffonTheMaltipoo",
@@ -101,7 +101,7 @@ const sponsors = [
     label: "Blueberry Pet: 10% off",
     code: "CHIFFON10",
     subtitle: "Harnesses, harness dresses, collars, leashes and clothes",
-    tags: ["Pet", "Clothes", "Walk Accessories"],
+    tags: ["Pet", "Clothing", "Walk Accessories"],
   },
   {
     link: "https://www.giftspawt.com/?ref=chiffon",
@@ -148,7 +148,7 @@ const sponsors = [
     label: "Max-Bone: 15% off",
     code: "CHIFFON15",
     subtitle: "Stylish outerwear, walk accessories, food and more",
-    tags: ["Pet", "Clothes", "Walk Accessories", "Food", "Carriers"],
+    tags: ["Pet", "Clothing", "Walk Accessories", "Food", "Carriers"],
   },
   {
     link: "http://i.refs.cc/3jn5PukK?smile_ref=http://i.refs.cc/3jn5PukK?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxlX21lZGl1bSI6IiIsInNtaWxlX2NhbXBhaWduIjoicmVmZXJyYWxfcHJvZ3JhbSIsInNtaWxlX2N1c3RvbWVyX2lkIjo0MTMxODczOTl9",
@@ -157,7 +157,7 @@ const sponsors = [
     subtitle: "Outerwear, walk accessories, and more",
     tags: [
       "Pet",
-      "Clothes",
+      "Clothing",
       "Human",
       "Bandanas",
       "Walk Accessories",
@@ -169,7 +169,7 @@ link: "https://www.sassywoof.com/"
 label: "Sassy Woof: 20% off"
 code: "CHIFFON"
 subtitle: "Walk accessories, outerwear, dog parent apparel and accessories"
-tags: ["Pet", "Clothes","Walk Accessories", "Bandanas" "Dog Mom/Dad"]
+tags: ["Pet", "Clothing","Walk Accessories", "Bandanas" "Dog Mom/Dad"]
   }
   {
     link: "https://prf.hn/click/camref:1101ljdjJ/creativeref:1101l62969",
