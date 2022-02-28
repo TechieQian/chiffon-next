@@ -1,6 +1,6 @@
 // git add -A
 // git commit -m "editing sponsors"
-// git push origin master
+// git push origin main
 
 // npm start
 
