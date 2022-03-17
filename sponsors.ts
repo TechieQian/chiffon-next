@@ -52,6 +52,13 @@ const sponsors = [
     tags: ["Dog", "Clothing", "Walk Accessories", "Dog Mom/Dad", "Human"],
   },
   {
+    link: "https://www.furbabycouture.com/?wpam_id=112",
+    label: "Fur Baby Couture",
+    code: null,
+    subtitle: "Dog clothing, fancy dresses, accessories, and more",
+    tags: ["Dog", "Clothing"],
+  },
+  {
     link: "https://www.liketoknow.it/ChiffonTheMaltipoo",
     label: "Like to Know it",
     code: null,
