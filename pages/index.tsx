@@ -10,6 +10,7 @@ const Home: NextPage = () => {
       watch her dance too. I also love cooking with my mommy at home! I have fun
       playing dress up at home and dreaming of being a princess. Check out some
       of my favorite This or That videos here:
+      <html>www.instagram.com</html>
       <link
         rel="stylesheet"
         href="https://www.instagram.com/chiffonthemaltipoo/guide/this-or-that-fashion-and-favorites/17883515288311498/"
