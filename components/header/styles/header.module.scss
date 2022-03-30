@@ -19,7 +19,7 @@
 }
 
 .brand {
-  flex-basis: 40%;
+  flex-basis: 10%;
   flex-grow: 1;
   @media only screen and (max-width: 1023px) {
     margin: 0 5px;
@@ -53,6 +53,7 @@
 }
 
 .gallery {
+  flex-grow: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5px;

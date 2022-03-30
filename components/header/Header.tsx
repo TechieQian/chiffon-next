@@ -49,15 +49,17 @@ function Header() {
         </div>
         <div className={styles.gallery}>
           {placeholders.map((pic, idx) => (
-            <Image
-              layout="responsive"
-              src={`/photos/chiffon${idx + 1}.jpg`}
-              height={150}
-              width={150}
-              className={styles.pic}
-              key={idx}
-              alt="pic"
-            />
+            <div>
+              <Image
+                src={`/photos/chiffon${idx + 1}.jpg`}
+                layout="responsive"
+                height={200}
+                width={200}
+                className={styles.pic}
+                key={idx}
+                alt="pic"
+              />
+            </div>
           ))}
         </div>
       </div>
