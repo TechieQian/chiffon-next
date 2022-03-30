@@ -18,6 +18,7 @@ const Home: NextPage = () => {
         <ul>
           <li>
             <a
+              rel="noreferrer noopener"
               target={"_blank"}
               href="https://www.instagram.com/chiffonthemaltipoo/guide/this-or-that-fashion-and-favorites/17883515288311498"
             >
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
           </li>
           <li>
             <a
+              rel="noreferrer noopener"
               target={"_blank"}
               href="https://www.instagram.com/chiffonthemaltipoo/guide/get-ready-with-me/17954515507677709/"
             >
@@ -34,6 +36,7 @@ const Home: NextPage = () => {
           </li>
           <li>
             <a
+              rel="noreferrer noopener"
               target={"_blank"}
               href="https://www.instagram.com/chiffonthemaltipoo/guide/how-i-organize-my-closet/17972314555482986/"
             >

@@ -13,7 +13,7 @@ function Sponsor({ sponsor }: SponsorProps) {
     <div className={`columns`}>
       <div className="column">
         <div>
-          <a target="_blank" href={link}>
+          <a rel="noreferrer noopener" target="_blank" href={link}>
             {label}
           </a>
           <div style={{ fontSize: "14px" }}>{subtitle}</div>
