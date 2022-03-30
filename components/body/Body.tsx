@@ -8,9 +8,9 @@ interface BodyProps {
 
 const Body: React.FC<BodyProps> = ({ children, className }) => {
   return (
-    <div className={`${styles.body}`}>
+    <main className={`${styles.body}`}>
       <div className={cn(`container`, className)}>{children}</div>
-    </div>
+    </main>
   );
 };
 
