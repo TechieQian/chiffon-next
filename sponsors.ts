@@ -254,6 +254,13 @@ const sponsors = [
     tags: ["Human", "Clothing"],
   },
   {
+    link: "https://shareasale.com/u.cfm?d=843147&m=64681&u=2634834&afftrack=",
+    label: "Daily Harvest: Up to $40 off your first order",
+    code: "CHIFFON",
+    subtitle: "Organic food delivery",
+    tags: ["Human"],
+  },
+  {
     link: "https://www.gopjn.com/t/SENKTEdLTUZDSEpOSktKQ0hJRkhPRw",
     label: "100 Percent Pure: Free shipping on 50+",
     code: null,

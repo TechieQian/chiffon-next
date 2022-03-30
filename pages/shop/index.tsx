@@ -17,13 +17,13 @@ function Shop() {
   return (
     <Body>
       <section className={styles.shop}>
-        <div className="tags">
+        <div className="buttons">
           {Array.from(uniqueTags).map((tag: any) => {
             const included = filteredTags.includes(tag);
             return (
-              <span
+              <button
                 key={tag}
-                className={cn("tag", {
+                className={cn("button is-small", {
                   "is-primary": included,
                 })}
                 onClick={() =>
@@ -35,7 +35,7 @@ function Shop() {
                 }
               >
                 {tag}
-              </span>
+              </button>
             );
           })}
         </div>

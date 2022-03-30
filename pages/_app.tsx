@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Header />
       <Navigation />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

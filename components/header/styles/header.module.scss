@@ -59,18 +59,4 @@
   @media only screen and (max-width: 1023px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .pic {
-    height: 150px;
-    width: 150px;
-    background-color: gray;
-    border: 1px solid black;
-    transition: all 0.2s ease-in-out;
-    // &:hover {
-    //   transform: scale(1.5);
-    //   -webkit-transform: scale(1.5);
-    //   -moz-transform: scale(1.5);
-    //   -ms-transform: scale(1.5);
-    //   -o-transform: scale(1.5);
-    // }
-  }
 }

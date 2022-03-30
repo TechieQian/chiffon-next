@@ -12,15 +12,10 @@ const NavLink = ({ label, link }: any) => (
 
 function Navigation() {
   return (
-    <nav
-      className={`${styles.nav} navbar`}
-      style={{ margin: "5px 0" }}
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav className={`${styles.nav} navbar`} aria-label="main navigation">
       <div className="navbar-menu container ">
         <div className="navbar-start">
-          <NavLink label="About Me" link="/about" />
+          <NavLink label="Home" link="/" />
           <NavLink label="Shop My Codes" link="/shop" />
         </div>
       </div>

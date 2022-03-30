@@ -2,10 +2,5 @@
   background-color: #fae1ea;
   min-height: 300px;
   font-size: 20px;
-  margin-top: 5px;
-  .content {
-    display: flex;
-    justify-content: center;
-    padding: 2em;
-  }
+  flex-grow: 1;
 }

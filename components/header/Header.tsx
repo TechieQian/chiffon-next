@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles/header.module.scss";
-import ChiffonPhoto from "./ChiffonPhoto";
+import Image from "next/image";
 
 function Header() {
   const placeholders = new Array(12).fill(" ");
@@ -49,7 +49,15 @@ function Header() {
         </div>
         <div className={styles.gallery}>
           {placeholders.map((pic, idx) => (
-            <ChiffonPhoto key={idx} idx={idx + 1} className={styles.pic} />
+            <Image
+              layout="responsive"
+              src={`/photos/chiffon${idx + 1}.jpg`}
+              height={150}
+              width={150}
+              className={styles.pic}
+              key={idx}
+              alt="pic"
+            />
           ))}
         </div>
       </div>
